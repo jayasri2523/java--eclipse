@@ -1,0 +1,17 @@
+package ai.jobiak.IceCream;
+
+import java.util.Scanner;
+public class CreateIcecreams extends Methods {
+	
+	
+
+
+	public static void main(String[] args) {
+		
+			
+			   }
+
+	}
+
+}
+}

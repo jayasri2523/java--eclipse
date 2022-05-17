@@ -1,0 +1,47 @@
+package ai.jobiak.IceCream;
+
+public class IceCream {
+	IceCream Chocobar;
+	String Brand;
+	
+	public IceCream() {
+	}
+
+	public IceCream(IceCream chocobar, String brand) {
+		super();
+		Chocobar = chocobar;
+		Brand = brand;
+	}
+
+	public IceCream getChocobar() {
+		return Chocobar;
+	}
+
+	public void setChocobar(IceCream chocobar) {
+		Chocobar = chocobar;
+	}
+
+	public String getBrand() {
+		return Brand;
+	}
+
+	public void setBrand(String brand) {
+		Brand = brand;
+	}
+
+	@Override
+	public String toString() {
+		return "IceCream [Chocobar=" + Chocobar + ", Brand=" + Brand + "]";
+	}
+
+	
+	}
+
+	
+	
+	
+
+	
+
+	
+
